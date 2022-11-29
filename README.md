@@ -356,5 +356,5 @@ In this lesson, we learned how to:
 
 ## Resources
 
-- [Component Registration](https://vuejs.org/v2/guide/components-registration.html)
-- [Props](https://vuejs.org/v2/guide/components-props.html)
+- [Component Registration](https://vuejs.org/guide/components/registration.html#component-registration)
+- [Props](https://vuejs.org/guide/components/props.html#props)
