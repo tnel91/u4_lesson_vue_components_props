@@ -1,13 +1,23 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
+    <MyComponent msg="This is my component!"/>
+    <SecondComponent msg="Second Component"/>
+    <ThirdComponent msg1='Third Component' msg2='paragraph'/>
   </div>
 </template>
 
 <script>
+import MyComponent from './components/MyComponent.vue';
+import SecondComponent from './components/SecondComponent.vue';
+import ThirdComponent from './components/ThirdComponent.vue';
 export default {
   name: 'App',
-  components: {}
+  components: {
+    MyComponent,
+    SecondComponent,
+    ThirdComponent
+  }
 }
 </script>
 
